@@ -29,16 +29,22 @@ Antes de executar o projeto, certifique-se de ter os seguintes pré-requisitos i
 1. Clone este repositório em sua máquina local:
 
 ```bash
-git clone 
+git clone https://github.com/rickhc3/coodesh-challenge.git
 ```
 
-2. Instale as dependências do projeto:
+2. Navegue até o diretório do projeto:
+
+```bash
+cd coodesh-challenge
+```
+
+3. Instale as dependências do projeto:
 
 ```bash
 npm install
 ```
 
-3. Execute o projeto:
+4. Execute o projeto:
 
 ```bash
 npm run dev
@@ -50,10 +56,16 @@ npm run dev
 1. Clone este repositório em sua máquina local:
 
 ```bash
-git clone 
+git clone https://github.com/rickhc3/coodesh-challenge.git
 ```
 
-2. Execute o projeto:
+2. Navegue até o diretório do projeto:
+
+```bash
+cd coodesh-challenge
+```
+
+3. Execute o projeto:
 
 ```bash
 docker-compose up

@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/graphql", "destination": "https://dropmail.me/api/graphql/APIKEYTESTCOODESHRICKHC3"}
+  ]
+}
