@@ -274,7 +274,7 @@ export default {
         return;
       }
 
-      const notification = new Notification("Novo email recebido", {
+      const notification = new Notification("New e-mail received", {
         body: `You have received a new email from ${email}`,
       });
     },
