@@ -23,11 +23,8 @@
                 </v-col>
               </v-row>
               <v-row class="justify-center">
-                <v-col cols="2" align="center">
-                  <v-icon>{{ countdownIcon }}</v-icon>
-                </v-col>
-                <v-col cols="10" align="center">
-                  <p>Updating in: {{ countdown }} seconds</p>
+                <v-col cols="12" align="center">
+                  <v-icon>{{ countdownIcon }}</v-icon> <p>Updating in: {{ countdown }} seconds</p>
                 </v-col>
               </v-row>
               <v-row>
