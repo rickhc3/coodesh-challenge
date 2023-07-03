@@ -185,6 +185,7 @@ export default {
 
   methods: {
     async introduceSession() {
+      this.loading = true;
       const response = await this.$axios.$post("/graphql", {
         query: introduceSession,
       });
@@ -197,17 +198,18 @@ export default {
     },
 
     async getSessionDetails(id) {
+      this.loading = true;
       const response = await this.$axios.$post("/graphql", {
         query: getSessionDetails(id),
       });
 
       this.sessionDetails = response.data.session;
-
       localStorage.setItem("email", this.sessionDetails.addresses[0].address);
       this.loading = false;
     },
 
     async checkSessionIsValid() {
+      this.loading = true;
       const response = await this.$axios.$post("/graphql", {
         query: getSessionDetails(localStorage.getItem("sessionId")),
       });
