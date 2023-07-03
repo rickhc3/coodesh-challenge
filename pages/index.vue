@@ -53,7 +53,7 @@
         </v-card>
 
         <v-snackbar v-model="showSnackbar" :timeout="3000" top>
-          Value copied to clipboard.
+          E-mail copied to clipboard.
         </v-snackbar>
       </v-col>
     </v-row>
