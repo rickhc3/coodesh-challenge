@@ -26,6 +26,8 @@ Antes de executar o projeto, certifique-se de ter os seguintes pré-requisitos i
 
 ## Instalação
 
+Antes de instalar, é possível acessá-lo em: https://coodesh-challenge-liart.vercel.app/
+
 1. Clone este repositório em sua máquina local:
 
 ```bash
