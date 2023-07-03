@@ -205,6 +205,7 @@ export default {
 
       this.sessionDetails = response.data.session;
       localStorage.setItem("email", this.sessionDetails.addresses[0].address);
+      this.email = localStorage.getItem("email");
       this.loading = false;
     },
 
